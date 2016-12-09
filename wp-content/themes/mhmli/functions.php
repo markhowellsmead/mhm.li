@@ -107,6 +107,7 @@ function mhmli_scripts()
 
     wp_enqueue_style('mhmli-foundation', 'https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css');
 
+    wp_enqueue_script('jquery');
     wp_enqueue_script('mhmli-navigation', get_template_directory_uri().'/js/navigation.js', array(), '20161209', true);
 
     wp_enqueue_script('mhmli-skip-link-focus-fix', get_template_directory_uri().'/js/skip-link-focus-fix.js', array(), '20161209', true);
